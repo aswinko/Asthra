@@ -846,7 +846,7 @@
       
    </footer>
    <!-- End Footer 1 -->
-   
+    <img src="img/Onam/New Mahabali.png" id="Onam" title="Happy Onam" onclick="changeImage()"/>
    <!-- Start Back To Top -->
    <a id="back-to-top">
       <i class="icon ion-chevron-up"></i>
@@ -854,6 +854,7 @@
    <!-- End Back To Top -->
    
 </div>
+<div><img src="img/Onam/Onam Footer.jpg" width="100%" height="500" /></div>	
 <!-- End Site Wrapper -->
 <!-- jQuery -->
 
@@ -868,6 +869,23 @@ for (i = 0; i < close.length; i++) {
     setTimeout(function(){ div.style.display = "none"; }, 600);
   }
 }
+</script>
+<script>
+    function changeImage() {
+	
+	var filename=document.getElementById("Onam").src.split("/");
+	
+	
+
+        if (filename[filename.length-1] =="New%20Mahabali.png") 
+        {
+            document.getElementById("Onam").src = "img/Onam/New Mahabali.gif";
+        }
+        else 
+        {
+            document.getElementById("Onam").src = "img/Onam/New Mahabali.png";
+        }
+    }
 </script>
 <script type="text/javascript" src="js/plugins/jquery.min.js"></script>
 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
