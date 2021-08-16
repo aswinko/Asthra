@@ -269,6 +269,27 @@ p {
     font-size: 14px;
 }
 
+#Onam {
+    position: fixed;
+    color: #fff;
+    z-index: 200;
+    line-height: 26px;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 200px;
+    width: 200px;
+    display: block;
+    text-align: center;
+    transition: background-color 0.1s linear;
+    -moz-transition: background-color 0.1s linear;
+    -webkit-transition: background-color 0.1s linear;
+    -o-transition: background-color 0.1s linear;
+}
+
+
 /* Preloader */
 #loader {
 	position: fixed;
