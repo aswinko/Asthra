@@ -211,6 +211,13 @@
         else{
             $("#back-to-top").stop().animate({ bottom:'-50px' },300,'easeInOutCubic')
         }
+	    
+	 if($(window).scrollTop() > 200){
+        $("#Onam").hide()        
+        } 
+        else{
+            $("#Onam").show()
+        }
     });
     /* -------------------
     Preloader
